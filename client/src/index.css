@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Comfortaa;
+}
+.header{
+    background-color: #212832;
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+.admin{
+    margin-left: 2rem;
+}
+.user{
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.adminPicture{
+    border-radius: 50%;
+    width: 5rem;
+    margin: 0rem 2rem;
+}
+.material-symbols-outlined {
+    margin-left: 1rem;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 50,
+    'opsz' 48;
+    font-size: 50px;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #5B47FB;
+    font-weight: 800;
+    border-bottom: #212832 3px solid;
+}
+.Page{
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.Page:hover{
+    color: white;
+    background-color: #5B47FB;
+}
+.userPage{
+    margin: auto;
+    width: 95vw;
+}
+.userPage h1{
+    margin: 2rem 0rem;
+}
+.userPage h3{
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+}
+.table{
+    border: #212832 2px solid;
+    border-radius: 5px;
+}
+.table h3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.tableHeader{
+    margin: 2rem 2rem 0rem;
+    display: flex;
+    border-top: #212832 1px solid;
+    border-bottom: #212832 1px solid;
+    border-left: #212832 1px solid;
+    justify-content: flex-start;
+}
+.tableHeader .colTitle{
+    padding: 1rem 1.5rem;
+    border-right: #818285 1px solid;
+    text-align: center;
+}
+.tableRow{
+    margin: 0rem 2rem;
+    display: flex;
+    border-bottom: #212832 1px solid;
+    border-left: #212832 1px solid;
+}
+.tableRow .colTitle{
+    padding: 1rem 0rem;
+    border-right: #818285 1px solid;
+    text-align: center;
+}
+.colTitle1,
+.colTitle6,
+.colTitle8
+{
+    width: 80px;
+}
+.colTitle3,
+.colTitle7,
+.colTitle11,
+.colTitle12,
+.colTitle15{
+    width: 100px;
+}
+.colTitle2,
+.colTitle4,
+.colTitle5,
+.colTitle9,
+.colTitle10,
+.colTitle13,
+.colTitle14{
+    width: 110px;
+}
+.colTitle16{
+    max-width: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+.colTitle17{
+    min-width: 245px;
+} 
+.tableRow:last-child{
+    margin: 0rem 2rem 2rem;
+    display: flex;
+    border-bottom: #212832 1px solid;
+    border-left: #212832 1px solid;
+    justify-content: flex-start;
+}
+.image{
+    width: 35px;
+}
+.addInput{
+    width: 80px;
+}
